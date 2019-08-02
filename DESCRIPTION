@@ -1,0 +1,24 @@
+Package: DESeq2shaman
+Type: Package
+Title: Differential gene expression analysis based on the negative
+        binomial distribution
+Version: 1.6.3
+Author: Michael Love (HSPH Boston), Simon Anders, Wolfgang Huber (EMBL
+    Heidelberg)
+Maintainer: Michael Love <michaelisaiahlove@gmail.com>
+Description: Estimate variance-mean dependence in count data from
+    high-throughput sequencing assays and test for differential
+    expression based on a model using the negative binomial
+    distribution
+License: GPL (>= 3)
+VignetteBuilder: knitr
+Imports: BiocGenerics (>= 0.7.5), Biobase, BiocParallel, genefilter,
+        methods, locfit, geneplotter, ggplot2, Hmisc, SummarizedExperiment 
+Depends: S4Vectors, IRanges, GenomicRanges, Rcpp (>= 0.10.1),
+        RcppArmadillo (>= 0.3.4.4)
+Suggests: RUnit, gplots, knitr, RColorBrewer, BiocStyle, airway,
+        pasilla (>= 0.2.10), DESeq, vsn
+LinkingTo: Rcpp, RcppArmadillo
+biocViews: Sequencing, ChIPSeq, RNASeq, SAGE, DifferentialExpression,
+        GeneExpression
+Packaged: 2014-12-17 03:51:49 UTC; biocbuild
