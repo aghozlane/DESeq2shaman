@@ -1,4 +1,4 @@
-Package: DESeq2shaman
+Package: DESeq2
 Type: Package
 Title: Differential gene expression analysis based on the negative
         binomial distribution
