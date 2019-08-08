@@ -151,7 +151,8 @@ varianceStabilizingTransformation <- function (object, blind=TRUE, fitType="para
     assays = vsd,
     colData = colData(object),
     rowData = rowData(object),
-    exptData = exptData(object))
+    metadata = metadata(object))
+    #exptData = exptData(object))
 }
 
 #' @rdname varianceStabilizingTransformation
