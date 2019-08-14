@@ -7,7 +7,7 @@
 
 \documentclass[12pt]{article}
 
-\newcommand{\deseqtwo}{\textit{DESeq2}}
+\newcommand{\deseqtwo}{\textit{DESeq2shaman}}
 \newcommand{\lowtilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}
 
 <<knitr, echo=FALSE, results="hide">>=
@@ -22,7 +22,7 @@ BiocStyle::latex()
 @
 
 <<loadDESeq2, echo=FALSE>>=
-library("DESeq2")
+library("DESeq2shaman")
 @
 
 
@@ -56,7 +56,7 @@ library("DESeq2")
 
   \vspace{1em}
   
-  \textbf{DESeq2 version:} \Sexpr{packageVersion("DESeq2")}
+  \textbf{DESeq2 version:} \Sexpr{packageVersion("DESeq2shaman")}
 
   \vspace{1em}
 
